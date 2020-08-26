@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Travelly website built using flexbox">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="./public/icons/airplane.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Travelly</title>
+</head>
+<body>
+    <header class="main-head">
+        <nav>
+            <h1 id="logo">Travelly</h1>
+            <ul>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Travel Beyond Limits.</h2>
+        <h3>Start your travel at an offordable price with Travelly.<br/>Travel in over 50 cities with one click.</h3>
+        <button>Book Now</button>
+    </section>
+    <section id="locations">
+        <div class="location-content">
+            <header class="locations-head">
+                <h2>Time to explore.</h2>
+                <h3>Has your dream always been to<br/> visit New York city?</h3>
+            </header>
+            <img src="./public/img/cloud.png" class="cloud-movement-1 cloud">
+            <img src="./public/img/cloud.png" class="cloud-movement-2 cloud">
+        </div>
+    </section>
+    <section id="benefits">
+        <div class="benefits-head">
+            <h2>The Perfect Travelling Experience</h2>
+            <h3>We cover everything from picking you the perfect hotel.<br/>flight and travelling destination.</h3>
+        </div>
+        <div class="benifits-boxes">
+            <div class="box">
+                <div class="box-img">
+                    <img src="./public/icons/route-solid.svg">
+                </div>
+                <div class="box-content">
+                    <h3>Travel</h3>
+                    <p>Travel in over 250 countries with no effort.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./public/icons/bed-solid.svg">
+                </div>
+                <div class="box-content">
+                    <h3>Sleep</h3>
+                    <p>Hotels located near popular areas.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./public/icons/plane-departure-solid.svg">
+                </div>
+                <div class="box-content">
+                    <h3>Fly</h3>
+                    <p>Flight included in every trip that you purchase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form">
+        <form class="form-box">
+            <h2>Stay Updated</h2>
+            <div class="form-name">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-email">
+                <label for="name">Email</label>
+                <input type="email" id="emal" required>
+            </div>
+            <button>Submit</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-wrap">
+            <h1 id="logo">Travelly &copy;</h1>
+            <ul>
+                <li><img src="./public/icons/twitter.svg" alt=""></li>
+                <li><img src="./public/icons/youtube.svg" alt=""></li>
+                <li><img src="./public/icons/instagram.svg" alt=""></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
